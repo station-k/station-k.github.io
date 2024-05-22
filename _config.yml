@@ -22,7 +22,7 @@ plugins:
 
 
 url: http://konovalets-station.com
-destination: docs/
+# destination: docs/
 
 languages: ["uk"]
 default_lang: "uk"
