@@ -23,7 +23,7 @@ plugins:
 url: http://konovalets-station.com
 destination: docs/
 
-languages: ["uk"]
+languages: ["uk", "en"]
 default_lang: "uk"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true

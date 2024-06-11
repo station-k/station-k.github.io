@@ -9,7 +9,6 @@ lang: uk
 
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/станція-коновальця/id1662388242)
 - [Spotify](https://open.spotify.com/show/41LCHXmFlQvFDXzwkU0dmH)
-- [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMTA3MDEwLnJzcw)
 - [YouTube](https://www.youtube.com/@konovalets_station)
 
 Мета нашого подкасту:
