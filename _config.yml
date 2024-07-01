@@ -23,14 +23,13 @@ plugins:
 url: http://konovalets-station.com
 destination: docs/
 
-languages: ["uk"]
+languages: ["uk", "en"]
 default_lang: "uk"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
 
 include:
-- _pages
-
+  - _pages
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
