@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -8,14 +8,15 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+            {{ site.author | escape }}
             {%- else -%}
-              {{ site.name[site.active_lang] | escape }}
+            {{ site.name[site.active_lang] | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email[site.active_lang] }}">{{ site.email[site.active_lang] }}</a>
+          </li>
+          {%- endif -%}
         </ul>
       </div>
 

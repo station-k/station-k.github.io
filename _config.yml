@@ -8,10 +8,12 @@ title: Ko-Station
 name:
   uk: Станція Коновальця
   en: Ko-Station
-email: konovalets.station@gmail.com
+email:
+  uk: konovalets.station@gmail.com
+  en: contact@ko-station.com
 description: # this means to ignore newlines until "baseurl:"
   uk: інтелектуальна спільнота українців
-  en: intellectual community of Ukrainians
+  en: knowmad community
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings

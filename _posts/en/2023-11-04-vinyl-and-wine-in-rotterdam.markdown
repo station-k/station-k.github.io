@@ -3,6 +3,8 @@ layout: post
 title:  '"Vinyl and Wine" gathering in Rotterdam'
 date:   2023-11-04 00:00:00 +0100
 lang: en
+tags: 
+ - Public Events
 ---
 
 On the 4th of November, the community and friends of Konovalets Station gathered in Rotterdam.
