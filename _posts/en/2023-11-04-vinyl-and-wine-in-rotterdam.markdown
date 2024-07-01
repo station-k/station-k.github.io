@@ -7,7 +7,7 @@ tags:
  - Public Events
 ---
 
-On the 4th of November, the community and friends of Konovalets Station gathered in Rotterdam.
+On the 4th of November, the community and friends of Ko-Station gathered in Rotterdam.
 
 We conversed, danced, indulged in organic wines, listened to vinyl records with Ukrainian retro music, and learned more about it.
 
