@@ -25,8 +25,9 @@
             {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
+          <a href="https://ko-station.com">ENG</a>
           <!-- lang switch -->
-          {%- if site.languages.size > 1 -%}
+          <!-- {%- if site.languages.size > 1 -%}
             {% for lang in site.languages %}
               {% assign lang_name = site.data[lang].strings.lang_name %}
               {% if lang == site.active_lang %}
@@ -39,7 +40,7 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-          {%- endif -%}
+          {%- endif -%} -->
           <!-- end lang switch -->
         </div>
       </nav>
