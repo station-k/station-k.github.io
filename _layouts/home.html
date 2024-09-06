@@ -11,20 +11,39 @@ layout: default
   {%- if site.posts.size > 0 -%}
   <ul class="post-list">
     {%- for post in site.posts -%}
-    {% if post.lang == site.active_lang %}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
+    <li class="post-item">
+      <div class="post-preview">
+        {%- if post.image -%}
+        <div class="post-image">
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+          </a>
+        </div>
+        {%- endif -%}
+
+        <div class="post-content">
+          <p class="post-meta">
+
+          {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+          <span>{{ post.date | date: date_format }}</span>
+          {% for tag in post.tags %}
+          •
+          <span itemprop="tag">#{{ tag | downcase | remove: ' ' }}</span>
+          {% endfor %}
+
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+
+          {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+          {%- endif -%}
+          </p>
+        </div>
+      </div>
     </li>
-    {% endif %}
     {%- endfor -%}
   </ul>
 

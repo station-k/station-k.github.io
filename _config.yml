@@ -16,6 +16,10 @@ description: # this means to ignore newlines until "baseurl:"
   en: knowmad community
 baseurl: "" # the subpath of your site, e.g. /blog
 
+# Social links
+instagram_username: konovalets_station
+youtube_username: konovalets_station
+
 # Build settings
 theme: minima
 plugins:
